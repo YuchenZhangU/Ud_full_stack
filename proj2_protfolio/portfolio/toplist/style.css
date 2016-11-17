@@ -1,0 +1,32 @@
+
+*{
+    -webkit-box-sizing: border-box;  /*for chrome and safari*/
+    -moz-box-sizing: border-box;  /*for firefox*/
+    -ms-box-sizing: border-box;  /*for IE and edge?*/
+    box-sizing: border-box;  /*1. should add web brower prefix 2. margin is not considered*/
+}
+
+.title{
+    text-transform: uppercase;
+    padding: 20px 0px 0px 0px;
+    margin: 50px 100px 40px 100px;
+    color: #ffffff;
+    background-color: #33BEBE;
+
+}
+.description{
+
+    color: #7C8B88;
+    max-width: 750px;
+    margin:0 100px 0 0;
+}
+
+.image{
+    max-height: 450px;
+    margin: 0 40px 0 100px;
+}
+
+.app{
+    display: -webkit-flex;  /*enable safari*/
+    display: flex;
+}
