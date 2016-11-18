@@ -1,0 +1,37 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    We can use 'diff' command on Linux/Mac or 'FC' command on windows to check the different between two files. The command will return only the different part of the two file helping use narrowing down the mistakes. It will be easy to detect the different and find the typo. The typo could be found by searching the new file.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Use cloud file system like google drive and dropbox. Use git version control and use github to make code on cloud.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    pros: more flexible. you can make each commit with clear logic. track file together.
+    cons: sometimes, people forget to commit.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    saving multiple file in one commit: git, svn, manually saving
+    treat each file separately: google docs, dropbox
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log: check all commit history
+    git diff second_commit_id first_commit_id
+    // note that the latest commit will show on top 
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    we could commit before make the change and if we make mistake that crash the program, we could revert to the previous commit and use diff to find what happen to the code.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
